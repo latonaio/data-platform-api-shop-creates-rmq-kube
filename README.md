@@ -1,0 +1,1 @@
+# data-platform-api-shop-creates-rmq-kube
