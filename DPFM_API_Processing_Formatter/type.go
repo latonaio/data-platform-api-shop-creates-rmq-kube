@@ -18,6 +18,8 @@ type HeaderUpdates struct {
 	Introduction					*string	`json:"Introduction"`
 	OperationRemarks				*string	`json:"OperationRemarks"`
 	PhoneNumber						*string	`json:"PhoneNumber"`
+	AvailabilityOfParking			*bool	`json:"AvailabilityOfParking"`
+	NumberOfParkingSpaces			*int	`json:"NumberOfParkingSpaces"`
 	Site							int		`json:"Site"`
 	Project							*int	`json:"Project"`
 	WBSElement						*int	`json:"WBSElement"`
@@ -28,6 +30,7 @@ type HeaderUpdates struct {
 	PointConsumptionType      		string  `json:"PointConsumptionType"`
 	LastChangeDate					string	`json:"LastChangeDate"`
 	LastChangeTime					string	`json:"LastChangeTime"`
+	LastChangeUser					int		`json:"LastChangeUser"`
 }
 
 type PartnerUpdates struct {

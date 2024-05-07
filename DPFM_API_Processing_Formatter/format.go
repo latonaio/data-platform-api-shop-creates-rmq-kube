@@ -25,6 +25,8 @@ func ConvertToHeaderUpdates(header dpfm_api_input_reader.Header) *HeaderUpdates 
 			Introduction:					data.Introduction,
 			OperationRemarks:				data.OperationRemarks,
 			PhoneNumber:					data.PhoneNumber,
+			AvailabilityOfParking:			data.AvailabilityOfParking,
+			NumberOfParkingSpaces:			data.NumberOfParkingSpaces,
 			Site:							data.Site,
 			Project:						data.Project,
 			WBSElement:						data.WBSElement,
@@ -35,6 +37,7 @@ func ConvertToHeaderUpdates(header dpfm_api_input_reader.Header) *HeaderUpdates 
 			PointConsumptionType:			data.PointConsumptionType,
 			LastChangeDate:					data.LastChangeDate,
 			LastChangeTime:					data.LastChangeTime,
+			LastChangeUser:					data.LastChangeUser,
 	}
 }
 

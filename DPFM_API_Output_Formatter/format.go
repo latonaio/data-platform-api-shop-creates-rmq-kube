@@ -113,6 +113,8 @@ func ConvertToHeader(
 		Introduction:                  input.Header.Introduction,
 		OperationRemarks:			   input.Header.OperationRemarks,
 		PhoneNumber:			   	   input.Header.PhoneNumber,
+		AvailabilityOfParking:		   input.Header.AvailabilityOfParking,
+		NumberOfParkingSpaces:		   input.Header.NumberOfParkingSpaces,
 		Site:						   input.Header.Site,
 		Project:                       input.Header.Project,
 		WBSElement:                    input.Header.WBSElement,
@@ -125,6 +127,8 @@ func ConvertToHeader(
 		CreationTime:                  input.Header.CreationTime,
 		LastChangeDate:                input.Header.LastChangeDate,
 		LastChangeTime:                input.Header.LastChangeTime,
+		CreateUser:					   input.Header.CreateUser,
+		LastChangeUser:				   input.Header.LastChangeUser,
 		IsReleased:                    input.Header.IsReleased,
 		IsMarkedForDeletion:           input.Header.IsMarkedForDeletion,
 	}

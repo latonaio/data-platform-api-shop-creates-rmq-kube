@@ -18,6 +18,8 @@ type Header struct {
 	Introduction					*string	`json:"Introduction"`
 	OperationRemarks				*string	`json:"OperationRemarks"`
 	PhoneNumber						*string	`json:"PhoneNumber"`
+	AvailabilityOfParking			*bool	`json:"AvailabilityOfParking"`
+	NumberOfParkingSpaces			*int	`json:"NumberOfParkingSpaces"`
 	Site							int		`json:"Site"`
 	Project							*int	`json:"Project"`
 	WBSElement						*int	`json:"WBSElement"`
@@ -30,6 +32,8 @@ type Header struct {
 	CreationTime					string	`json:"CreationTime"`
 	LastChangeDate					string	`json:"LastChangeDate"`
 	LastChangeTime					string	`json:"LastChangeTime"`
+	CreateUser						int		`json:"CreateUser"`
+	LastChangeUser					int		`json:"LastChangeUser"`
 	IsReleased						*bool	`json:"IsReleased"`
 	IsMarkedForDeletion				*bool	`json:"IsMarkedForDeletion"`
 }
